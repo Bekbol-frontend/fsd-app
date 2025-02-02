@@ -4,6 +4,7 @@ import { ICounterSchema } from "@/entities/Counter";
 import { IProfileSchema } from "@/entities/Profile";
 import { IUserSchema } from "@/entities/User";
 import { ILoginUsernameSchame } from "@/features/AuthByUsername";
+import { ISaveScrollSchema } from "@/features/SaveScroll";
 import { IArticleSchema } from "@/pages/ArticlesPage";
 import { ISidebarSchema } from "@/widgets/Sidebar";
 import { ISidebarMinSchema } from "@/widgets/SidebarMin";
@@ -21,6 +22,7 @@ export interface IStateSchema {
   sidebarMin: ISidebarMinSchema;
   counter: ICounterSchema;
   user: IUserSchema;
+  saveScroll: ISaveScrollSchema;
 
   // Async-Reducers
   login?: ILoginUsernameSchame;

@@ -1,5 +1,5 @@
-export type TypeScrollPosition = Record<string, boolean>;
+export type ScrollSchema = Record<string, number>;
 
 export interface ISaveScrollSchema {
-  scroll: TypeScrollPosition;
+  scroll: ScrollSchema;
 }
