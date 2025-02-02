@@ -1,0 +1,21 @@
+@use "@/app/styles/mixins/mixins" as *;
+
+.articlesHeader {
+  @include flexContainer;
+  margin-bottom: 25px;
+
+  .left {
+  }
+  .right {
+    display: flex;
+    gap: 6px;
+
+    .btnView {
+      padding: 3px;
+
+      &.activeBtnView {
+        color: var(--primary-color);
+      }
+    }
+  }
+}

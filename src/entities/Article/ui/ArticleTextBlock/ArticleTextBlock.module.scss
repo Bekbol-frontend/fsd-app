@@ -1,0 +1,12 @@
+.articleBlock {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

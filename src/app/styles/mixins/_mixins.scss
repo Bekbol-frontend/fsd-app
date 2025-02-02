@@ -1,0 +1,16 @@
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexContainer(
+  $alignItems: center,
+  $justifyContent: space-between,
+  $gap: 10px
+) {
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  gap: $gap;
+}

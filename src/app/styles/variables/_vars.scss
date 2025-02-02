@@ -1,0 +1,30 @@
+:root {
+  --font-family-main: "Nunito", serif;
+
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 24px;
+
+  --border-radius: 5px;
+  --border-radius-card: 10px;
+
+  --header-height: 75px;
+  --sidebar-max-width: 300px;
+  --sidebar-min-width: 100px;
+
+  --padding: 20px;
+
+  --color-white: #fff;
+
+  // modal-bg
+  --modal-bg: rgba(0, 0, 0, 0.7);
+
+  // z-index
+  --modal-z-index: 20;
+  --header-z-index: 10;
+
+  // danger-color
+  --danger-color: rgb(243, 17, 62);
+  --danger-color-light: rgba(241, 39, 79, 0.1);
+  --danger-color-hover: rgb(241, 39, 79);
+}

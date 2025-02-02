@@ -1,0 +1,15 @@
+.jsx {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--secondary-color-light);
+  color: var(--secondary-color);
+  padding: 6px 10px;
+  border-radius: var(--border-radius-card);
+  transition: 200ms ease;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: var(--secondary-color);
+  }
+}

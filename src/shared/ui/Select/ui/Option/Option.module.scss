@@ -1,0 +1,15 @@
+.option {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-color);
+  transition: 200ms ease;
+
+  &:last-child {
+    border: none;
+  }
+
+  &:hover {
+    background-color: var(--body-bg);
+    color: var(--secondary-color);
+  }
+}

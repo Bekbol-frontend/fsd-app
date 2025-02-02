@@ -1,0 +1,20 @@
+.articleListLoading {
+  padding: 20px 0;
+  
+  &.big {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &.small {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
+    gap: 20px;
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.articleCommentList {
+  padding: 20px 0;
+
+  .titleComment,
+  .titleLoading {
+    margin-bottom: 15px;
+  }
+
+  .commentsLoadingBlock,
+  .commentsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

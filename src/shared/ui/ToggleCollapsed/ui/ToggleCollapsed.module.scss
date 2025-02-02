@@ -1,0 +1,7 @@
+.collapsedBtn {
+  padding: 5px;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}

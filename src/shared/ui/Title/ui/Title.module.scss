@@ -1,0 +1,20 @@
+.title {
+  text-transform: capitalize;
+  color: var(--title-color);
+
+  &.danger {
+    color: var(--danger-color);
+  }
+
+  &.l {
+    font-size: clamp(28px, 3vw, 35px);
+  }
+
+  &.m {
+    font-size: clamp(25px, 3vw, 30px);
+  }
+
+  &.s {
+    font-size: clamp(20px, 3vw, 26px);
+  }
+}

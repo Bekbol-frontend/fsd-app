@@ -1,0 +1,21 @@
+.notFoundPage {
+  padding: var(--padding);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+  .inner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: clamp(12px, 3vw, 20px);
+
+    .btn {
+      font-size: clamp(15px, 3vw, 17px);
+      text-transform: none;
+      padding: clamp(7px, 3vw, 12px) clamp(12px, 3vw, 20px);
+    }
+  }
+}

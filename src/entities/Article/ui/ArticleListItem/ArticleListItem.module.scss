@@ -1,0 +1,146 @@
+@use "../../../../app/styles/mixins/mixins" as *;
+
+.articleListItem {
+  border-radius: var(--border-radius-card);
+  background-color: var(--card-bg);
+  position: relative;
+  border: 1px solid var(--border-color);
+  transition: 200ms ease;
+
+  .link {
+    position: absolute;
+    inset: 0;
+  }
+
+  &.small {
+    &:hover {
+      .imgBlock {
+        .created {
+          opacity: 1;
+        }
+      }
+    }
+
+    .imgBlock {
+      position: relative;
+      width: 100%;
+      height: 180px;
+      padding: 20px 20px 10px;
+      border-bottom: 1px solid var(--border-color);
+
+      @media screen and (max-width: 550px) {
+        height: 130px;
+      }
+
+      @media screen and (max-width: 450px) {
+        height: 100px;
+      }
+
+      .created {
+        background-color: var(--content-bg);
+        padding: 5px;
+        border-radius: var(--border-radius);
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        opacity: 0;
+        transition: 200ms;
+      }
+
+      .img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .bodyBlock {
+      padding: 10px 20px 20px;
+
+      .bodyBlockTop {
+        @include flexContainer;
+        margin-bottom: 12px;
+
+        .views {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
+
+      .titleBlock {
+        .title {
+          font-size: clamp(16px, 2vw, 19px);
+          width: 180px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          overflow: hidden;
+
+          @media screen and (max-width: 768px) {
+            width: 140px;
+          }
+
+          @media screen and (max-width: 500px) {
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+
+  &.big {
+    .bigHeader {
+      @include flexContainer;
+      padding: 20px;
+
+      .bigHeaderLeft {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+      }
+    }
+
+    .bigContent {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .imgWrapper {
+        margin-inline: auto;
+        max-width: 150px;
+        height: 150px;
+        @include flexContainer;
+
+        img {
+          object-fit: contain;
+        }
+      }
+
+      .textBlock {
+        height: 150px;
+        overflow: hidden;
+        padding: 10px 20px;
+      }
+    }
+
+    .bigFooter {
+      @include flexContainer;
+      padding: 10px 20px 20px;
+
+      .bigFooterRight {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}

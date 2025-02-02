@@ -1,0 +1,21 @@
+{
+  "Hello": "Hello",
+  "Select": "Select",
+  "Not found page": "Not found page 404!",
+  "Go home page": "Go home page",
+  "The address is typed incorrectly or the page does not exist": "The address is typed incorrectly or the page does not exist",
+  "Something went wrong": "Something went wrong.",
+  "Reload": "Reload",
+
+  "Home": "Home",
+  "About": "About",
+  "Profile": "Profile",
+  "Articles": "Articles",
+
+  "Login": "Login",
+  "Loading": "Loading",
+  "Logout": "Logout",
+  "Please input your username!": "Please input your username!",
+  "Please input your password!": "Please input your password!",
+  "Please input your comment!": "Please input your comment!"
+}

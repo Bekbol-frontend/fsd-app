@@ -1,0 +1,15 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+
+  .inner {
+    text-align: center;
+
+    .btn {
+      background-color: var(--danger-color);
+      margin-top: 12px;
+    }
+  }
+}

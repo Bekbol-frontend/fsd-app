@@ -1,0 +1,29 @@
+@use "@/app/styles/mixins/mixins" as *;
+
+.wrapper {
+  width: 45px;
+  height: 20px;
+  background-color: var(--border-color);
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+
+  .icon {
+    @include flexCenter;
+    width: 30px;
+    height: 30px;
+    background-color: var(--switch-theme-color);
+    color: #fff;
+    padding: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: 200ms;
+
+    &.toggle {
+      left: 15px;
+    }
+  }
+}

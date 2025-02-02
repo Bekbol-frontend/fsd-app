@@ -1,0 +1,8 @@
+.collapsedMinBtn {
+  display: none;
+  padding: 5px;
+
+  @media screen and (max-width: 900px) {
+    display: inline-flex;
+  }
+}

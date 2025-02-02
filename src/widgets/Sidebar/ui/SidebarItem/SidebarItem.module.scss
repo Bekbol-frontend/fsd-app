@@ -1,0 +1,30 @@
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  background-color: var(--card-bg);
+  height: 42px;
+  transition: 200ms ease;
+
+  &:hover,
+  &.active {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+  }
+
+  &.collapsed {
+    height: 42px;
+    overflow: hidden;
+    .text {
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+    }
+  }
+
+  .icon {
+    min-width: 40px;
+    display: flex;
+  }
+}

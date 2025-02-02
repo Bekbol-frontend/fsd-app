@@ -1,0 +1,21 @@
+{
+  "Hello": "Салем",
+  "Select": "Таңдаңыз",
+  "Not found page": "Бет табылмады 404!",
+  "Go home page": "Басты бетке өтіңіз",
+  "The address is typed incorrectly or the page does not exist": "Мекенжай қате терілген немесе бет жоқ",
+  "Something went wrong": "Бірдеңе дұрыс болмады.",
+  "Reload": "Reload",
+
+  "Home": "Негізгі бет",
+  "About": "Біз туралы",
+  "Profile": "Профиль",
+  "Articles": "Мақалалар",
+
+  "Login": "Жүйеге кіру",
+  "Loading": "Жүктелуде",
+  "Logout": "Шығу",
+  "Please input your username!": "Пайдаланушы атыңызды енгізіңіз!",
+  "Please input your password!": "Құпия сөзіңізді енгізіңіз!",
+  "Please input your comment!": "Пікіріңізді енгізіңіз!"
+}

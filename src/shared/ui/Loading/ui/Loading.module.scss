@@ -1,0 +1,9 @@
+.loading {
+  animation: loader 800ms infinite linear;
+
+  @keyframes loader {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

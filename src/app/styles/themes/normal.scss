@@ -1,0 +1,24 @@
+body.light {
+  --body-bg: #f6f7f9;
+  --content-bg: #ffffff;
+  --card-bg: #f0f0f0;
+
+  --text-color: #4a4e58;
+  --title-color: #282a30;
+
+  --primary-color: royalblue;
+  --primary-color-hover: rgb(36, 80, 211);
+  --primary-color-light: rgba(65, 105, 225, 0.2);
+
+  --secondary-color: #ff4810;
+  --secondary-color-hover: #ea3f0b;
+  --secondary-color-light: rgba(255, 117, 75, 0.1);
+
+  --border-color: #ddd;
+
+  --switch-theme-color: var(--secondary-color);
+
+  --color-gray-light: rgba(238, 238, 238, 0.7);
+
+  --skeleton-box-bg: #d6d6d6;
+}

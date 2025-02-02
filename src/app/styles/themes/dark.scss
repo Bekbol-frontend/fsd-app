@@ -1,0 +1,23 @@
+body.dark {
+  --body-bg: #111114;
+  --content-bg: #1f1f22;
+  --card-bg: #161619;
+
+  --text-color: #fafafa;
+  --title-color: #f9fbfe;
+
+  --primary-color: royalblue;
+  --primary-color-hover: rgb(36, 80, 211);
+  --primary-color-light: rgba(65, 105, 225, 0.2);
+
+  --secondary-color: #ff4810;
+  --secondary-color-hover: #ea3f0b;
+  --secondary-color-light: rgba(255, 117, 75, 0.1);
+
+  --border-color: #393939;
+
+  --switch-theme-color: var(--primary-color);
+  --color-gray-light: rgba(238, 238, 238, 0.1);
+
+  --skeleton-box-bg: #545454;
+}

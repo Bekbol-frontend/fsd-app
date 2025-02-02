@@ -1,0 +1,6 @@
+.section {
+  overflow-y: auto;
+  flex-grow: 1;
+  padding: var(--padding);
+  height: calc(100vh - var(--header-height));
+}

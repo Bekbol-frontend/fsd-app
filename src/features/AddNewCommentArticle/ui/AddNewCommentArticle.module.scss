@@ -1,0 +1,21 @@
+.addNewCommentArticle {
+  padding: 20px 0;
+
+  .formComment {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    .btnForm {
+      align-self: flex-start;
+    }
+
+    .inputBlock {
+      flex: 1;
+
+      textarea {
+        resize: vertical;
+      }
+    }
+  }
+}

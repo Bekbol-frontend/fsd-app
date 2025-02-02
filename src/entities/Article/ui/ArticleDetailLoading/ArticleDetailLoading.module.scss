@@ -1,0 +1,10 @@
+.articleLoading {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .img {
+        margin-inline: auto;
+    }
+
+}
